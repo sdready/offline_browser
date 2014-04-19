@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378C18F415293468005617F7 /* app.png in Resources */ = {isa = PBXBuildFile; fileRef = 378C18F315293468005617F7 /* app.png */; };
+		378C18F6152935C6005617F7 /* app2.png in Resources */ = {isa = PBXBuildFile; fileRef = 378C18F5152935C6005617F7 /* app2.png */; };
+		37A6496015293F54001E1EBF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A6495F15293F54001E1EBF /* Default.png */; };
+		37A6496315293F5B001E1EBF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A6496215293F5B001E1EBF /* Default@2x.png */; };
+		37B669551527FBE5003997F5 /* PageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B669531527FBE5003997F5 /* PageInfo.m */; };
+		37B669561527FBE5003997F5 /* PageInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B669541527FBE5003997F5 /* PageInfo.xib */; };
+		37B669631528D69F003997F5 /* SettingsScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B669611528D69E003997F5 /* SettingsScreenController.m */; };
+		37B669641528D69F003997F5 /* SettingsScreenController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B669621528D69E003997F5 /* SettingsScreenController.xib */; };
+		37B6696B1528E201003997F5 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B6696A1528E201003997F5 /* Settings.m */; };
+		37B6E7F5150978C30016FFD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B6E7F4150978C30016FFD1 /* UIKit.framework */; };
+		37B6E7F7150978C30016FFD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B6E7F6150978C30016FFD1 /* Foundation.framework */; };
+		37B6E7F9150978C30016FFD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B6E7F8150978C30016FFD1 /* CoreGraphics.framework */; };
+		37B6E7FF150978C30016FFD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37B6E7FD150978C30016FFD1 /* InfoPlist.strings */; };
+		37B6E801150978C30016FFD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B6E800150978C30016FFD1 /* main.m */; };
+		37B6E805150978C30016FFD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B6E804150978C30016FFD1 /* AppDelegate.m */; };
+		37B6E80E150978E60016FFD1 /* MainScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B6E80C150978E60016FFD1 /* MainScreenController.m */; };
+		37B6E80F150978E60016FFD1 /* MainScreenController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B6E80D150978E60016FFD1 /* MainScreenController.xib */; };
+		37B6E81215097B4F0016FFD1 /* SavedScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B6E81115097B4F0016FFD1 /* SavedScreenController.m */; };
+		37B6E82715098D200016FFD1 /* WebPages.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B6E82615098D200016FFD1 /* WebPages.m */; };
+		37B6E82A1509901D0016FFD1 /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B6E8291509901C0016FFD1 /* Page.m */; };
+		37B9318B1525043000F48170 /* Browser.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B931891525043000F48170 /* Browser.m */; };
+		37B9318C1525043000F48170 /* Browser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B9318A1525043000F48170 /* Browser.xib */; };
+		37BAA3921527B34D009C367B /* FavouritePages.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA3911527B34D009C367B /* FavouritePages.m */; };
+		37BAA3991527B4FE009C367B /* FavouritesScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA3981527B4FE009C367B /* FavouritesScreenController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		378C18F315293468005617F7 /* app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app.png; sourceTree = "<group>"; };
+		378C18F5152935C6005617F7 /* app2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app2.png; sourceTree = "<group>"; };
+		37A6495F15293F54001E1EBF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		37A6496215293F5B001E1EBF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		37B669521527FBE5003997F5 /* PageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageInfo.h; sourceTree = "<group>"; };
+		37B669531527FBE5003997F5 /* PageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageInfo.m; sourceTree = "<group>"; };
+		37B669541527FBE5003997F5 /* PageInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageInfo.xib; sourceTree = "<group>"; };
+		37B669601528D69E003997F5 /* SettingsScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsScreenController.h; sourceTree = "<group>"; };
+		37B669611528D69E003997F5 /* SettingsScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsScreenController.m; sourceTree = "<group>"; };
+		37B669621528D69E003997F5 /* SettingsScreenController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsScreenController.xib; sourceTree = "<group>"; };
+		37B669691528E200003997F5 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		37B6696A1528E201003997F5 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		37B6E7F0150978C30016FFD1 /* OfflineBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfflineBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B6E7F4150978C30016FFD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37B6E7F6150978C30016FFD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37B6E7F8150978C30016FFD1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37B6E7FC150978C30016FFD1 /* OfflineBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OfflineBrowser-Info.plist"; sourceTree = "<group>"; };
+		37B6E7FE150978C30016FFD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37B6E800150978C30016FFD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37B6E802150978C30016FFD1 /* OfflineBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OfflineBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		37B6E803150978C30016FFD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37B6E804150978C30016FFD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37B6E80B150978E60016FFD1 /* MainScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenController.h; sourceTree = "<group>"; };
+		37B6E80C150978E60016FFD1 /* MainScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenController.m; sourceTree = "<group>"; };
+		37B6E80D150978E60016FFD1 /* MainScreenController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainScreenController.xib; sourceTree = "<group>"; };
+		37B6E81015097B4F0016FFD1 /* SavedScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedScreenController.h; sourceTree = "<group>"; };
+		37B6E81115097B4F0016FFD1 /* SavedScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedScreenController.m; sourceTree = "<group>"; };
+		37B6E82515098D1F0016FFD1 /* WebPages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebPages.h; sourceTree = "<group>"; };
+		37B6E82615098D200016FFD1 /* WebPages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebPages.m; sourceTree = "<group>"; };
+		37B6E8281509901C0016FFD1 /* Page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
+		37B6E8291509901C0016FFD1 /* Page.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page.m; sourceTree = "<group>"; };
+		37B931881525043000F48170 /* Browser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Browser.h; sourceTree = "<group>"; };
+		37B931891525043000F48170 /* Browser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Browser.m; sourceTree = "<group>"; };
+		37B9318A1525043000F48170 /* Browser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Browser.xib; sourceTree = "<group>"; };
+		37BAA3901527B34D009C367B /* FavouritePages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouritePages.h; sourceTree = "<group>"; };
+		37BAA3911527B34D009C367B /* FavouritePages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritePages.m; sourceTree = "<group>"; };
+		37BAA3971527B4FE009C367B /* FavouritesScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouritesScreenController.h; sourceTree = "<group>"; };
+		37BAA3981527B4FE009C367B /* FavouritesScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesScreenController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37B6E7ED150978C30016FFD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B6E7F5150978C30016FFD1 /* UIKit.framework in Frameworks */,
+				37B6E7F7150978C30016FFD1 /* Foundation.framework in Frameworks */,
+				37B6E7F9150978C30016FFD1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37B6E7E5150978C30016FFD1 = {
+			isa = PBXGroup;
+			children = (
+				37A6496215293F5B001E1EBF /* Default@2x.png */,
+				37A6495F15293F54001E1EBF /* Default.png */,
+				378C18F315293468005617F7 /* app.png */,
+				378C18F5152935C6005617F7 /* app2.png */,
+				37B6E7FA150978C30016FFD1 /* OfflineBrowser */,
+				37B6E7F3150978C30016FFD1 /* Frameworks */,
+				37B6E7F1150978C30016FFD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37B6E7F1150978C30016FFD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37B6E7F0150978C30016FFD1 /* OfflineBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37B6E7F3150978C30016FFD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37B6E7F4150978C30016FFD1 /* UIKit.framework */,
+				37B6E7F6150978C30016FFD1 /* Foundation.framework */,
+				37B6E7F8150978C30016FFD1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37B6E7FA150978C30016FFD1 /* OfflineBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				37B6E803150978C30016FFD1 /* AppDelegate.h */,
+				37B6E804150978C30016FFD1 /* AppDelegate.m */,
+				37B6E80B150978E60016FFD1 /* MainScreenController.h */,
+				37B6E80C150978E60016FFD1 /* MainScreenController.m */,
+				37B6E80D150978E60016FFD1 /* MainScreenController.xib */,
+				37B6E81015097B4F0016FFD1 /* SavedScreenController.h */,
+				37B6E81115097B4F0016FFD1 /* SavedScreenController.m */,
+				37BAA3971527B4FE009C367B /* FavouritesScreenController.h */,
+				37BAA3981527B4FE009C367B /* FavouritesScreenController.m */,
+				37B669601528D69E003997F5 /* SettingsScreenController.h */,
+				37B669611528D69E003997F5 /* SettingsScreenController.m */,
+				37B669621528D69E003997F5 /* SettingsScreenController.xib */,
+				37B931881525043000F48170 /* Browser.h */,
+				37B931891525043000F48170 /* Browser.m */,
+				37B9318A1525043000F48170 /* Browser.xib */,
+				37B669521527FBE5003997F5 /* PageInfo.h */,
+				37B669531527FBE5003997F5 /* PageInfo.m */,
+				37B669541527FBE5003997F5 /* PageInfo.xib */,
+				37B6E82515098D1F0016FFD1 /* WebPages.h */,
+				37B6E82615098D200016FFD1 /* WebPages.m */,
+				37BAA3901527B34D009C367B /* FavouritePages.h */,
+				37BAA3911527B34D009C367B /* FavouritePages.m */,
+				37B6E8281509901C0016FFD1 /* Page.h */,
+				37B6E8291509901C0016FFD1 /* Page.m */,
+				37B669691528E200003997F5 /* Settings.h */,
+				37B6696A1528E201003997F5 /* Settings.m */,
+				37B6E7FB150978C30016FFD1 /* Supporting Files */,
+			);
+			path = OfflineBrowser;
+			sourceTree = "<group>";
+		};
+		37B6E7FB150978C30016FFD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37B6E7FC150978C30016FFD1 /* OfflineBrowser-Info.plist */,
+				37B6E7FD150978C30016FFD1 /* InfoPlist.strings */,
+				37B6E800150978C30016FFD1 /* main.m */,
+				37B6E802150978C30016FFD1 /* OfflineBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37B6E7EF150978C30016FFD1 /* OfflineBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B6E808150978C30016FFD1 /* Build configuration list for PBXNativeTarget "OfflineBrowser" */;
+			buildPhases = (
+				37B6E7EC150978C30016FFD1 /* Sources */,
+				37B6E7ED150978C30016FFD1 /* Frameworks */,
+				37B6E7EE150978C30016FFD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OfflineBrowser;
+			productName = OfflineBrowser;
+			productReference = 37B6E7F0150978C30016FFD1 /* OfflineBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37B6E7E7150978C30016FFD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University of Prince Edward Island";
+			};
+			buildConfigurationList = 37B6E7EA150978C30016FFD1 /* Build configuration list for PBXProject "OfflineBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37B6E7E5150978C30016FFD1;
+			productRefGroup = 37B6E7F1150978C30016FFD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37B6E7EF150978C30016FFD1 /* OfflineBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37B6E7EE150978C30016FFD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B6E7FF150978C30016FFD1 /* InfoPlist.strings in Resources */,
+				37B6E80F150978E60016FFD1 /* MainScreenController.xib in Resources */,
+				37B9318C1525043000F48170 /* Browser.xib in Resources */,
+				37B669561527FBE5003997F5 /* PageInfo.xib in Resources */,
+				37B669641528D69F003997F5 /* SettingsScreenController.xib in Resources */,
+				378C18F415293468005617F7 /* app.png in Resources */,
+				378C18F6152935C6005617F7 /* app2.png in Resources */,
+				37A6496015293F54001E1EBF /* Default.png in Resources */,
+				37A6496315293F5B001E1EBF /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37B6E7EC150978C30016FFD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B6E801150978C30016FFD1 /* main.m in Sources */,
+				37B6E805150978C30016FFD1 /* AppDelegate.m in Sources */,
+				37B6E80E150978E60016FFD1 /* MainScreenController.m in Sources */,
+				37B6E81215097B4F0016FFD1 /* SavedScreenController.m in Sources */,
+				37B6E82715098D200016FFD1 /* WebPages.m in Sources */,
+				37B6E82A1509901D0016FFD1 /* Page.m in Sources */,
+				37B9318B1525043000F48170 /* Browser.m in Sources */,
+				37BAA3921527B34D009C367B /* FavouritePages.m in Sources */,
+				37BAA3991527B4FE009C367B /* FavouritesScreenController.m in Sources */,
+				37B669551527FBE5003997F5 /* PageInfo.m in Sources */,
+				37B669631528D69F003997F5 /* SettingsScreenController.m in Sources */,
+				37B6696B1528E201003997F5 /* Settings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37B6E7FD150978C30016FFD1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37B6E7FE150978C30016FFD1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37B6E806150978C30016FFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37B6E807150978C30016FFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37B6E809150978C30016FFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OfflineBrowser/OfflineBrowser-Prefix.pch";
+				INFOPLIST_FILE = "OfflineBrowser/OfflineBrowser-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37B6E80A150978C30016FFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OfflineBrowser/OfflineBrowser-Prefix.pch";
+				INFOPLIST_FILE = "OfflineBrowser/OfflineBrowser-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37B6E7EA150978C30016FFD1 /* Build configuration list for PBXProject "OfflineBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B6E806150978C30016FFD1 /* Debug */,
+				37B6E807150978C30016FFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37B6E808150978C30016FFD1 /* Build configuration list for PBXNativeTarget "OfflineBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B6E809150978C30016FFD1 /* Debug */,
+				37B6E80A150978C30016FFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37B6E7E7150978C30016FFD1 /* Project object */;
+}
